@@ -12,7 +12,7 @@ html {
 
 a {
   color: #568c36;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 a:hover {
@@ -20,9 +20,12 @@ a:hover {
 }
 
 .masthead {
-  background-color: #568c36;
+  background-color: #fff;
+  color: #000;
+}
 
-  color: #fff;
+.banner {
+  background-color: #568c36;
 }
 
 .nav {
@@ -54,8 +57,13 @@ a:hover {
   color: #fff;
 }
 
+.read {
+  color: #000;
+}
+
 .prices {
   background-color: #f5f2f0;
+  color: #000;
 }
 
 th,
